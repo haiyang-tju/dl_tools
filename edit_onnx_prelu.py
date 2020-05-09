@@ -4,6 +4,9 @@
 修改 onnx 中的 PRelu 的 slope 维度，相当于执行了 flatten()
 
 https://discuss.tvm.ai/t/prelu-dimension-mismatch-error-when-converting-onnx-model-to-tvm/4313/3
+
+处理经过 onnx-simplifier 优化后的模型
+python3 -m onnxsim m.onnx m_new_onnx
 '''
 
 
